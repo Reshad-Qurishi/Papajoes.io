@@ -1,27 +1,32 @@
 body{
     background-color: rgb(233, 233, 224);
 }
-h1{ font-size: 100pt;
+papa{ 
+  width: auto;
+  font-size: 60pt;
  text-shadow: rgb(236, 236, 225);
 }
+
 
     
 .button {
     
   display: inline-block;
   border-radius: 12px;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius:5rem ;
   background-color: #f4511e;
-  border: 10px;
+  
   color: #f8f5f5;
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
   
   padding: 15px;
   
-  width: 250px;
+  width: 210px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 10px;
+  margin: 0px;
 }
 
 
@@ -52,8 +57,10 @@ h1{ font-size: 100pt;
 
 
 
+
+
 .G1 {
-    transform: translate(20px, 90px) rotate(-30deg);
+    transform: translate(20px, 90px) rotate(-35deg);
     text-shadow: 1px 1px 20px rgb(9, 5, 244);
 }
 
@@ -107,22 +114,24 @@ h1{ font-size: 100pt;
     text-shadow: 1px 1px 20px rgb(9, 5, 244);
 }
 
-
 span {
-    display: inline-block;
+    display: inline-flex;
 }
 
 
 	.button2 {
 	  display: inline-block;
 	  border-radius: 12px;
+    border-top-left-radius: 5rem;
+  border-bottom-left-radius:5rem ;
+
 	  background-color: #f4511e;
 	  border: 10px;
-	  color: #e0d5d5;
+	  color: #ffffff;
 	  text-align: center;
-	  font-size: 28px;
+	  font-size: 25px;
 	  padding: 15px;
-	  width: 250px;
+	  width: 200px;
 	  transition: all 0.5s;
 	  cursor: pointer;
 	  margin: 10px;
